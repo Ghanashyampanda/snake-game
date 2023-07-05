@@ -1,0 +1,40 @@
+body {
+  background-color: #8d99ae;
+  color: red;
+}
+
+#game-board {
+  position: relative;
+  height: 500px;
+  width: 1000px;
+  border: 1px solid white;
+}
+
+#score-board {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  color: white;
+}
+
+.snake {
+  background-color: darkgreen;
+  position: absolute;
+  height: 15px;
+  width: 15px;
+}
+
+.snake.head {
+  background-color: lime;
+  border: 1px solid red;
+  border-radius: 15px 50px 35px 0px;
+}
+
+.food {
+  background-color: red;
+  position: absolute;
+  height: 15px;
+  border-radius: 10px 10px 10px 10px;
+  width: 15px;
+}
